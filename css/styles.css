@@ -1,0 +1,70 @@
+/* Main stylesheet */
+
+* {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	padding: 10px;
+	margin: 0;
+}
+
+img {
+	max-width: 100%;  /* need to adjust max-width on all images after resizign browser... Just doing once when page  */
+	border: none;
+}
+
+.slideshow {
+
+}
+
+.slides {
+	list-style-type: none;
+	width: 100%;
+	max-width: 960px;
+	padding: 0;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+	padding-bottom: 40.625%;  /* maintains aspect ratio of image */
+}
+
+.slides > li {
+	width: 100%;
+	position: absolute;
+	-webkit-transition: left 0.4s ease-in-out;
+	-moz-transition: left 0.4s ease-in-out;
+	-o-transition: left 0.4s ease-in-out;
+	transition: left 0.4s ease-in-out;
+}
+
+.slides > li:nth-child(1) {
+	left: 0;
+}
+
+.slides > li:nth-child(2) {
+	left: 100%;
+}
+
+.slides > li:nth-child(3) {
+	left: 200%;
+}
+
+.slides > li:nth-child(4) {
+	left: 300%;
+}
+
+
+.slide-caption {
+	position: absolute;
+	left: -9999px;
+	
+}
+
+@media screen and (min-width: 960px) {
+	.slides {
+		padding-bottom: 390px;
+	}
+}
+
