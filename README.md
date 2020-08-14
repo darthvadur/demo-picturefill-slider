@@ -6,7 +6,7 @@ Most responsive sliders are not optimized for mobile devices as they don't inclu
 
 Responsive image slider which uses the awesome [Picturefill script](https://github.com/scottjehl/picturefill/tree/1.2.1).
 
-View demo here: [davearthurweb.com/demos/responsive-sliders/picturefill-slider/](http://davearthurweb.com/demos/responsive-sliders/picturefill-slider/)
+[View demo](http://arbutuscreative.ca/darthvadur/demos/responsive-sliders/picturefill-slider/)
 
 ## Demo Uses
 
